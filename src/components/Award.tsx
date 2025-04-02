@@ -4,23 +4,33 @@ import React from 'react'
 
 const Award = () => {
   return (
-    <div className='flex w-11/12 mx-auto mt-10'>
-    <div className=''>
-     <Image src='/pour.jpeg' height={500} width={400} alt='home' className='rounded-r-lg' />
-    </div>
-    <div className='flex justify-center w-6/12 mx-auto my-20'>
-      <div>
-      <h1 className='flex justify-center text-4xl font-bold'>Enjoy</h1>
-      <h1 className='flex justify-center text-xl text-gray-700 mt-5'>Our Award Winning Product</h1>
-      <p className='flex justify-center text-center mt-5 text-gray-700'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium mollitia nesciunt debitis repellendus error, recusandae quas nisi accusamus quibusdam asperiores soluta earum quo amet rem omnis accusantium? Ratione, saepe illum?</p>
-      <div className='mt-5 px-10 flex justify-center'>
-            <Link href='/' className='bg-yellow-500 px-5 py-2 rounded-full text-white mt-5'>Read More</Link>
-      </div>
+    <div className='flex flex-col lg:flex-row w-11/12 mx-auto mt-10 bg-gray-50 rounded-lg shadow-lg overflow-hidden'>
+      {/* Image Section */}
+      <div className='hidden lg:flex w-1/2'>
+        <Image 
+          src='/pour.jpeg' 
+          height={500} 
+          width={400} 
+          alt='home' 
+          className='rounded-r-lg object-cover w-full' 
+        />
       </div>
       
+      {/* Text Section */}
+      <div className='flex flex-col justify-center items-center w-full lg:w-1/2 p-10 text-center'>
+        <h1 className='text-4xl font-bold text-gray-900'>Enjoy</h1>
+        <h2 className='text-xl text-gray-700 mt-3'>Our Award-Winning Product</h2>
+        <p className='text-gray-600 mt-4 max-w-lg'>
+          Experience the best in quality and innovation. Our products have been recognized globally for their excellence, delivering top-tier performance for all your needs.
+        </p>
+        <Link 
+          href='/' 
+          className='bg-yellow-500 px-6 py-3 rounded-full text-white mt-6 transition duration-300 hover:bg-black'
+        >
+          Read More
+        </Link>
+      </div>
     </div>
-   
-  </div>
   )
 }
 

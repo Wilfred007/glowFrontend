@@ -63,14 +63,14 @@ const Colors = () => {
       <div className='my-10'>
         <h1 className='flex justify-center text-2xl font-bold mx-10 text-center'>Feel Comfortable With Our Different</h1>
         <h1 className='flex justify-center text-6xl font-bold'>Shades</h1>
-        <p className='w-2/4 mx-auto mt-5 text-gray-700'>Whatever your inspiration, we have the colour for you. </p>
+        <p className='w-2/4 mx-auto mt-5 text-gray-700'>Whatever your inspiration, we have just the perfect colours for you. </p>
       </div>
       <div className='hidden md:flex w-6/12 mt-10'>
         <Image src='/interior.jpg' height={700} width={700} alt='image' />
       </div>
       </div>
       <div className="flex justify-center mt-10">
-        <h1 className="text-3xl font-bold text-gray-800">Choose From Over 50 Shades</h1>
+        <h1 className="text-3xl font-bold text-gray-800 mx-10 text-center">Choose From Over 50 Shades</h1>
         <div className=""></div>
       </div>
       <div className="border-t border-gray-300 my-4 p-10 w-1/4 m-auto"></div>
@@ -81,7 +81,7 @@ const Colors = () => {
           <h3 className="font-bold text-3xl text-gray-600">{item.color}</h3>
           <p className='text-gray-500'>{item.shades}</p>
           <div className='mt-28'>
-                      <Link href='/' className=' hover:underline  bg-gray-600 text-white py-3  px-5 rounded-full'>View</Link>
+                      <Link href='/color-sample' className=' hover:underline  bg-gray-600 text-white py-3  px-5 rounded-full'>View</Link>
                       </div>
         </div>
         </>
