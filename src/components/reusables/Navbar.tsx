@@ -26,7 +26,7 @@ export default function Navbar() {
           
           {/* CTA Button (Desktop) */}
           <div className="hidden lg:flex items-center">
-            <button className='bg-yellow-500 transition-transform duration-400 ease-in-out px-5 py-2 rounded-full text-white hover:bg-black'>Colour Samples</button>
+            <Link href='/our-colors' className='bg-yellow-500 transition-transform duration-400 ease-in-out px-5 py-2 rounded-full text-white hover:bg-black'>Colour Samples</Link>
           </div>
           
           {/* Mobile Menu Toggle Button */}

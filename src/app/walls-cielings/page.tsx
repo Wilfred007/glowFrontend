@@ -45,8 +45,8 @@ const Walls = () => {
             Biggest Colour Range
           </p>
           <p className="text-gray-300 w-11/12 mx-auto text-center py-10">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-            veniam recusandae ducimus dolor commodi suscipit!
+          Transform Your Space with Premium Paints
+
           </p>
           <div className="mt-5 px-2 flex justify-center">
             <Link
@@ -58,12 +58,12 @@ const Walls = () => {
           </div>
         </div>
         <div className="hidden md:flex">
-          <Image src="/brush.jpg" height={900} width={900} alt="home" />
+          <Image src="/crown.png" height={900} width={900} alt="home" />
         </div>
       </div>
       <div className="flex w-11/12 mx-auto mt-10">
         <div className="hidden md:flex">
-          <Image src="/wake.jpg" height={700} width={700} alt="home" />
+          <Image src="/yellow.jpg" height={700} width={700} alt="home" />
         </div>
         <div className="md:w-6/12 mx-10 shadow-lg p-10">
           <h1>
