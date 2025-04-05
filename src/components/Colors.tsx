@@ -13,7 +13,7 @@ const Colors = () => {
           <h1 className='text-2xl text-gray-800 flex justify-center'>Colors</h1>
         </div>
         <div  className=''>
-          <p className='flex justify-center text-center text-gray-700'>Lorem ipsum dolor sit amet consectetur adipisicing  elit. Ut perspiciatis at beatae. Deserunt dolores cumque fugiat.</p>
+          <p className='flex justify-center text-center text-gray-700'>Whether it is walls, ceilings, or tricky textures, our paints are built to perform. Premium quality, lasting results, made for every space.</p>
           <div className='mt-5 flex justify-center'>
             <Link href='/' className='bg-yellow-500 transition-transform duration-200 ease-in-out px-5 py-2 rounded-full text-white mt-5 hover:bg-black hover:text-white'>Get Started</Link>
             </div>
