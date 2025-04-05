@@ -1,6 +1,6 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -10,7 +10,6 @@ import { Button } from "@/components/ui/button";
 
 const Sample = () => {
   const features = ["Premium Quality Paints", "Eco-Friendly Options", "Expert Color Matching"]
-  const router = useRouter();
   const products = [
     {
       id: 1,

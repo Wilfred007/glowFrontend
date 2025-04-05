@@ -9,7 +9,7 @@ const HowTo = () => {
         <h1 className='text-4xl font-sans font-bold'>How To & Tips</h1>
         <p>Planning, prepping or painting, you can select from our <br/> rich collection</p>
         <div className='mt-5'>
-            <Link href='/' className='bg-yellow-500 px-5 py-2 rounded-sm text-white mt-5'>Let's Get Started</Link>
+            <Link href='/' className='bg-yellow-500 px-5 py-2 rounded-sm text-white mt-5'>Let&#39;s Get Started</Link>
         </div>
       </div>
       <div className='flex'>

@@ -1,6 +1,6 @@
 import Award from '@/components/Award';
 import { Button } from '@/components/ui/button';
-import { ArrowBigDown, ArrowDown } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
 import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react'
