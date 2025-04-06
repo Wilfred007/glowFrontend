@@ -8,8 +8,13 @@ import React, { useEffect, useState } from "react";
 
 const slides = [
   { id: 1, src: "/Room1.jpeg", alt: "Room 1" },
-  { id: 2, src: "/room2.jpeg", alt: "Slide 2" },
-  { id: 3, src: "/room3.jpeg", alt: "Slide 3" },
+  { id: 2, src: "/slider1.jpg", alt: "Slide 2" },
+  { id: 3, src: "/slider3.jpg", alt: "Slide 3" },
+  { id: 3, src: "/crown.png", alt: "Slide 3" },
+  { id: 3, src: "/room4.jpeg", alt: "Slide 3" },
+  { id: 3, src: "/room7.jpeg", alt: "Slide 3" },
+
+
 ];
 
 const Award = () => {
@@ -53,11 +58,11 @@ const Award = () => {
         }}
       >
         {slides.map((slide) => (
-          <div key={slide.id} className="w-full h-full flex-shrink-0">
+          <div key={slide.id} className="w-full h-[750px] flex-shrink-0">
             <img
               src={slide.src} // Fixed to use the correct property name
               alt={slide.alt}
-              className="w-full h-full object-cover"
+              className="w-full h-full"
             />
           </div>
         ))}
