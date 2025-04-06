@@ -62,7 +62,7 @@ const Award = () => {
             <img
               src={slide.src} // Fixed to use the correct property name
               alt={slide.alt}
-              className="w-full h-full"
+              className="w-full h-full object-cover"
             />
           </div>
         ))}
